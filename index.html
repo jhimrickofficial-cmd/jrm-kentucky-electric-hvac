@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Kentucky Electric &amp; HVAC | Master Electricians &amp; Climate Specialists</title>
+<meta content="Fast, reliable electrical and HVAC repair, maintenance, and installations in Lexington &amp; Central Kentucky. Call +1 (859) 472-8820 for prompt service." name="description"/>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<!-- FontAwesome for high-precision trade icons -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<!-- Tailwind CSS v3 with Forms & Container-Queries -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              navy: '#18244d',
+              darknavy: '#101a38',
+              deepnavy: '#0b1226',
+              amber: '#f29913',
+              amberhover: '#db8507',
+              lightamber: '#fff7ed',
+              accentorange: '#ea580c',
+              slatebg: '#f8fafc',
+              cardbg: '#ffffff'
+            }
+          }
+        }
+      }
+    }
+  </script>
+<!-- BEGIN: Custom Style Adjustments -->
+<style data-purpose="custom-typography-and-effects">
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      -webkit-font-smoothing: antialiased;
+      color: #1e293b;
+    }
+    .hero-split-curve {
+      border-top-left-radius: 2.5rem;
+      border-bottom-left-radius: 2.5rem;
+    }
+    @media (max-width: 1024px) {
+      .hero-split-curve {
+        border-top-left-radius: 1.5rem;
+        border-top-right-radius: 1.5rem;
+        border-bottom-left-radius: 0;
+      }
+    }
+  </style>
+<!-- END: Custom Style Adjustments -->
+</head>
+<body class="bg-[#f8fafc] text-slate-800 antialiased selection:bg-amber-500 selection:text-white">
+<!-- BEGIN: TopAnnouncementBar -->
+<div class="bg-brand-deepnavy text-slate-300 text-xs sm:text-sm py-2 px-4 border-b border-white/10" data-purpose="top-utility-bar">
+<div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+<div class="flex items-center gap-4 flex-wrap justify-center sm:justify-start">
+<span class="inline-flex items-center gap-1.5 text-amber-400 font-semibold">
+<i class="fa-solid fa-bolt"></i> 24/7 Emergency Dispatch Available
+        </span>
+<span class="hidden md:inline text-white/30">|</span>
+<span class="hidden md:inline-flex items-center gap-1 text-slate-300">
+<i class="fa-regular fa-clock text-amber-400"></i> Mon-Fri 8am-5pm | Sat 8am-6pm | Sun 8am-5pm
+        </span>
+</div>
+<div class="flex items-center gap-4 text-xs">
+<a class="hover:text-amber-400 transition-colors flex items-center gap-1" href="https://maps.app.goo.gl/Q28Zw3j4veThCFSr7" rel="noopener noreferrer" target="_blank">
+<i class="fa-solid fa-location-dot text-amber-400"></i> Lexington &amp; Central Kentucky
+        </a>
+<a class="text-white font-bold hover:text-amber-400 transition-colors" href="tel:+18594728820">
+<i class="fa-solid fa-phone text-amber-400 mr-1"></i> (859) 472-8820
+        </a>
+</div>
+</div>
+</div>
+<!-- END: TopAnnouncementBar -->
+<!-- BEGIN: MainHeader -->
+<header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-100 shadow-sm" data-purpose="site-navigation">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+<!-- Brand Logo -->
+<a aria-label="Kentucky Electric &amp; HVAC Homepage" class="flex items-center gap-3 group focus:outline-none" href="#">
+<div class="w-11 h-11 rounded-xl bg-brand-navy flex items-center justify-center text-amber-400 shadow-md group-hover:scale-105 transition-transform">
+<i class="fa-solid fa-bolt-lightning text-xl"></i>
+</div>
+<div class="flex flex-col">
+<span class="text-lg sm:text-xl font-extrabold tracking-tight text-brand-navy leading-none">
+            Kentucky <span class="text-amber-500">Electric</span> &amp; HVAC
+          </span>
+<span class="text-[11px] font-semibold text-slate-500 uppercase tracking-wider mt-0.5">Licensed Master Specialists</span>
+</div>
+</a>
+<!-- Desktop Navigation Links -->
+<nav aria-label="Main Navigation" class="hidden lg:flex items-center gap-8 text-sm font-semibold text-slate-700">
+<a class="hover:text-brand-navy transition-colors" href="#services">Services</a>
+<a class="hover:text-brand-navy transition-colors" href="#about">About Us</a>
+<a class="hover:text-brand-navy transition-colors" href="#why-us">Why Choose Us</a>
+<a class="hover:text-brand-navy transition-colors" href="#pricing">Pricing</a>
+<a class="hover:text-brand-navy transition-colors" href="#reviews">Reviews</a>
+<a class="hover:text-brand-navy transition-colors" href="#faq">FAQ</a>
+<a class="hover:text-amber-600 transition-colors" href="https://maps.app.goo.gl/Q28Zw3j4veThCFSr7" rel="noopener noreferrer" target="_blank">Service Area</a>
+</nav>
+<!-- Right Header CTA Buttons -->
+<div class="flex items-center gap-3">
+<a class="hidden sm:inline-flex items-center gap-2 px-4 py-2.5 rounded-lg text-sm font-bold text-white bg-brand-navy hover:bg-brand-darknavy shadow-sm transition-all" href="tel:+18594728820">
+<i class="fa-solid fa-phone text-amber-400"></i>
+<span>(859) 472-8820</span>
+</a>
+<a class="inline-flex items-center justify-center px-4 py-2.5 rounded-lg text-sm font-bold text-white bg-amber-500 hover:bg-amber-600 shadow-sm transition-all hover:shadow-md" href="#pricing">
+          Book Online
+        </a>
+</div>
+</div>
+</header>
+<!-- END: MainHeader -->
+<!-- BEGIN: HeroSection -->
+<section class="relative bg-white pt-6 pb-12 sm:pt-10 sm:pb-16 overflow-hidden" data-purpose="hero-banner">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<!-- Split Hero Layout (Faithful to Reference Design) -->
+<div class="grid grid-cols-1 lg:grid-cols-12 rounded-3xl overflow-hidden bg-brand-navy shadow-2xl">
+<!-- Hero Left Column: Brand Copy & Call to Action -->
+<div class="lg:col-span-7 p-8 sm:p-12 lg:p-16 flex flex-col justify-center text-white relative z-10">
+<div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 text-amber-300 text-xs font-semibold uppercase tracking-wider mb-6 w-fit backdrop-blur-sm border border-white/10">
+<span class="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span>
+            Lexington &amp; Central Kentucky Master Pros
+          </div>
+<h1 class="text-3xl sm:text-5xl lg:text-[3.25rem] font-extrabold tracking-tight leading-tight text-white mb-6">
+            Fast, reliable Electric &amp; HVAC repair &amp; installation
+          </h1>
+<p class="text-slate-300 text-base sm:text-lg mb-8 max-w-xl font-normal leading-relaxed">
+            Expert Kentucky electrical and climate services ensuring optimal comfort, electrical code safety, and high-efficiency performance tailored to your home or facility.
+          </p>
+<div class="flex flex-wrap items-center gap-4 mb-10">
+<a class="px-7 py-3.5 rounded-xl font-bold text-white bg-amber-500 hover:bg-amber-600 transition-all shadow-lg hover:shadow-amber-500/30 flex items-center gap-2 text-sm sm:text-base" href="tel:+18594728820">
+<span>Book a service</span>
+<i class="fa-solid fa-arrow-right text-xs"></i>
+</a>
+<a class="px-7 py-3.5 rounded-xl font-bold text-white bg-white/10 hover:bg-white/20 transition-all border border-white/15 text-sm sm:text-base" href="#services">
+              Explore Services
+            </a>
+</div>
+<!-- Customer Review Rating Pill & Avatars -->
+<div class="flex items-center gap-4 pt-6 border-t border-white/15">
+<div class="flex -space-x-3 overflow-hidden">
+<img alt="Customer avatar" class="inline-block h-10 w-10 rounded-full ring-2 ring-brand-navy object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB2eai9w8YuOe-DRc6y4TAPRUulXpwls16IWBFRop_91ssN7NObYYVgoEvLwK_HRVhqpWvnStLYDZXw4MN0czeG2rMLhgT2trX7QYDkLFgjEnGqnYFz7LGPa6F2H2g_TkdkIyrfsxojkk_cLlGKruZ3ZnljjbdFEHXaG7vhKoWQKkLa4qiDfQZAoMZI0aKgd6WN9jgC1OLG3fJWXDHPGDRgoznFJ93uQQQQcZwPgUGzXJ7FVR17KJYAaQ"/>
+<img alt="Customer avatar" class="inline-block h-10 w-10 rounded-full ring-2 ring-brand-navy object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCyf0CK_L4XmesmGo4VLUpKHklBRI8Pfu2DzMhh4zw1l6yQYyprZcPxEZIgwwYmqYOxAXh_ih_KRjmLt-i_RzmoXRszOMyrDxpHpxVaJLtgmYEsoLYThDo4aHy8I3qsZtBZlL4_AHGAjT1W7H7qOO_qBRO7hjs2AfT3lzMeD1FWTwHXjF4-c5nz1QxfAhv2RWfKc84jYKXkzZPdX99t9ZMDsXo1HWMU0_VV5_JVaBEjeZ65-RXSjdH9Ng"/>
+<img alt="Customer avatar" class="inline-block h-10 w-10 rounded-full ring-2 ring-brand-navy object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCr6PesUM6c0AIVTvYol1mk_UfYltEi49NmzI9HKKHRZqXg-iXq-MTmhdJQD5fDk7gZ2A0-Cgoc4s_aQ-onf6v9dk3Gj_xbOLKtUmi7RNf-_atl3JirLcunJXi21YG0HkSW0p1DxZna3IdfCkn7k2xAdadTyyT4NhpjH7nPuE4M93R7Fqqhr4Cr6p2DKSjyxPHRHZHgxq4V8tJKNpGt1k5eK12SlevTWXwKoh1Od82FISfZb63XTQLG6w"/>
+</div>
+<div>
+<div class="flex items-center gap-1 text-amber-400 text-sm">
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+</div>
+<p class="text-xs sm:text-sm font-semibold text-slate-200 mt-0.5">
+                4.9/5 rating from 340+ Kentucky reviews
+              </p>
+</div>
+</div>
+</div>
+<!-- Hero Right Column: High-Impact Technician Visual -->
+<div class="lg:col-span-5 relative min-h-[360px] lg:min-h-full">
+<img alt="Licensed HVAC and Electrical Technician inspecting air handler" class="w-full h-full object-cover object-center hero-split-curve" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB8GYN4MAE05P-izit15hOVyIGU-LFwzl1uPhs3so9e_Mxaw9WgEfgrMq0ehAPNvA29XRUPsiYkcof5wE61PzEAn1TObP5ZrrSGMSzGJwxRjyGLCIsFCgvmUeNZkyQZV8X-RHQws5ueORUoqJ4-I_z1e_LOosSKoIqtuWAZz5ZGRCwXto73j2al9cNo4Rz20AIrjqqR1jvBRKorGh262p9OOXH-Yrs4wiVHYdLWJCFWAJfIxSDLhwd2Kw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-brand-navy/60 via-transparent to-transparent lg:hidden"></div>
+</div>
+</div>
+<!-- Quick Action Banners Under Hero -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
+<!-- Left Quick Box: Emergency Dispatch -->
+<div class="bg-amber-500 rounded-2xl p-6 text-brand-darknavy flex items-center justify-between shadow-lg">
+<div class="flex items-center gap-4">
+<div class="w-13 h-13 sm:w-14 sm:h-14 rounded-full bg-white text-amber-600 flex items-center justify-center text-xl sm:text-2xl font-bold shadow-md shrink-0">
+<i class="fa-solid fa-phone-volume"></i>
+</div>
+<div>
+<h3 class="text-base sm:text-lg font-extrabold text-slate-900 leading-tight">Call now for emergency service</h3>
+<p class="text-xs sm:text-sm font-medium text-slate-800 mt-1">
+                Available 24/7 for urgent electrical &amp; HVAC repairs. Don't wait, call us at 
+                <a class="underline font-bold hover:text-white transition-colors" href="tel:+18594728820">(859) 472-8820</a>.
+              </p>
+</div>
+</div>
+</div>
+<!-- Right Quick Box: Scheduled Tune-Up -->
+<div class="bg-amber-100/90 border border-amber-200/80 rounded-2xl p-6 text-brand-darknavy flex items-center justify-between shadow-sm">
+<div class="flex items-center gap-4">
+<div class="w-13 h-13 sm:w-14 sm:h-14 rounded-full bg-white text-brand-navy flex items-center justify-center text-xl sm:text-2xl font-bold shadow-sm shrink-0">
+<i class="fa-solid fa-calendar-check"></i>
+</div>
+<div>
+<h3 class="text-base sm:text-lg font-extrabold text-slate-900 leading-tight">Schedule your routine service</h3>
+<p class="text-xs sm:text-sm font-medium text-slate-700 mt-1">
+                Routine electrical checkup or seasonal AC &amp; furnace tune-up. 
+                <a class="underline font-bold hover:text-amber-700" href="#pricing">Book a consultation today →</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: HeroSection -->
+<!-- BEGIN: AboutAuthoritySection -->
+<section class="py-16 sm:py-24 bg-white" data-purpose="authority-trust" id="about">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<!-- Left: Consultation Photo (Matching Reference Structure) -->
+<div class="lg:col-span-6 relative">
+<div class="relative mx-auto max-w-md lg:max-w-none">
+<img alt="Kentucky technicians consulting with homeowner with digital tablet" class="w-full h-[450px] object-cover rounded-3xl shadow-xl" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDEdbQ9vv6j7ybQP19w7eJNLJdAhyYdUuNEdNR2NRZ0htHCNdt5BqEVTPYMsguNkwTOqh-4XG_-3u4dBjlC4asK7K9EE2adhjr5h3RV4CG17bGIU_2KSJCQS_5ioNidoY-sV2fH9AHscndZ_GI3fme93t7G4k5fHGxbLRD8Npr-kvgDnzbeGsb4QsERa-iT9WwNvi4VE_6tG2v4IbsAREPAKYNw8GCESsw10VxMw_QITEKfWCRZ95mVEA"/>
+<div class="absolute -bottom-6 -right-6 bg-brand-navy text-white p-5 rounded-2xl shadow-xl hidden sm:flex items-center gap-4 border border-white/10">
+<div class="w-12 h-12 rounded-xl bg-amber-500 text-white flex items-center justify-center text-xl">
+<i class="fa-solid fa-shield-halved"></i>
+</div>
+<div>
+<p class="text-xs text-amber-400 font-bold uppercase tracking-wider">Licensed &amp; Insured</p>
+<p class="text-sm font-extrabold">Kentucky Master License</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Right: Authority Copy & Metrics -->
+<div class="lg:col-span-6 flex flex-col justify-center">
+<span class="text-amber-500 font-extrabold text-sm uppercase tracking-wider mb-2">Central Kentucky Specialists</span>
+<h2 class="text-3xl sm:text-4xl font-extrabold text-brand-navy tracking-tight leading-tight mb-6">
+            We’re the experts you trust every time
+          </h2>
+<p class="text-slate-600 text-base sm:text-lg mb-8 leading-relaxed">
+            With years of seasoned fieldwork across Lexington, Richmond, and surrounding counties, we deliver reliable electrical panel upgrades, rewiring, heat pump maintenance, and AC installations that keep your property compliant, safe, and smoothly running every day of the year.
+          </p>
+<div class="mb-10">
+<a class="inline-flex items-center justify-center px-7 py-3 rounded-xl font-bold text-white bg-amber-500 hover:bg-amber-600 transition-all shadow-md" href="tel:+18594728820">
+              More about us
+            </a>
+</div>
+<!-- Key Metrics Counter Row with Photo Thumbnail (Direct Reference Match) -->
+<div class="grid grid-cols-3 gap-4 pt-8 border-t border-slate-100 items-center">
+<div>
+<div class="text-3xl sm:text-4xl font-extrabold text-brand-navy tracking-tight">18+</div>
+<div class="text-xs sm:text-sm font-medium text-slate-500 mt-1">Years of experience</div>
+</div>
+<div>
+<div class="text-3xl sm:text-4xl font-extrabold text-brand-navy tracking-tight">99%</div>
+<div class="text-xs sm:text-sm font-medium text-slate-500 mt-1">Satisfaction rate</div>
+</div>
+<div class="overflow-hidden rounded-xl h-16 sm:h-20 border border-slate-200">
+<img alt="HVAC coil inspection thumbnail" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAz7_vnUVsDzTLFoHl39ekKlXDCthkvh1xx8s-qEPM1we3TjPQPVF8UdNSuEmhnNNf89LR2xnmLYDv_hJbwnAjozGSUOSjQVoNTuY_rSU1Hh8nZzV6iQzvBLe9a0Sw0Gpq_Pa00Q_OJrPaTlLE1hPnxD0pjxU99_EHv7ZMAJs2AzHkd-Emn4g03mEIquDRGcAjnLeahWC4OyU4Byoyy2Om2BAlSYTJljQ2K2wkpP76KBWoOsTI6ihZxsA"/>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: AboutAuthoritySection -->
+<!-- BEGIN: ServicesGridSection -->
+<section class="py-16 sm:py-24 bg-[#f8fafc]" data-purpose="services-showcase" id="services">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<!-- Section Header with Right Button -->
+<div class="flex flex-col sm:flex-row sm:items-end justify-between mb-12 gap-4">
+<div>
+<span class="text-amber-500 font-extrabold text-xs uppercase tracking-widest mb-1 block">Full-Scope Solutions</span>
+<h2 class="text-3xl sm:text-4xl font-extrabold text-brand-navy tracking-tight">Our services</h2>
+</div>
+<a class="inline-flex items-center gap-2 px-6 py-2.5 rounded-xl font-bold text-sm bg-amber-500 text-white hover:bg-amber-600 transition-all shadow-sm w-fit" href="tel:+18594728820">
+          View all services
+          <i class="fa-solid fa-arrow-right text-xs"></i>
+</a>
+</div>
+<!-- 6 Service Cards Grid (3 Columns x 2 Rows) -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Card 1: AC Repair & Diagnostics -->
+<div class="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
+<div>
+<h3 class="text-xl font-extrabold text-brand-navy group-hover:text-amber-600 transition-colors mb-3">AC repair</h3>
+<p class="text-sm text-slate-500 leading-relaxed mb-8">
+              Fast, reliable cooling diagnostics and repair to keep your central air and heat pump operating at maximum energy efficiency.
+            </p>
+</div>
+<div class="w-12 h-12 rounded-xl bg-amber-100 text-amber-600 flex items-center justify-center text-lg">
+<i class="fa-solid fa-fan"></i>
+</div>
+</div>
+<!-- Card 2: Electrical Repair & Upgrades -->
+<div class="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
+<div>
+<h3 class="text-xl font-extrabold text-brand-navy group-hover:text-amber-600 transition-colors mb-3">Electrical repair</h3>
+<p class="text-sm text-slate-500 leading-relaxed mb-8">
+              Breaker boxes, panel upgrades, surge protection, faulty wiring troubleshooting, and full EV charger circuit installations.
+            </p>
+</div>
+<div class="w-12 h-12 rounded-xl bg-amber-100 text-amber-600 flex items-center justify-center text-lg">
+<i class="fa-solid fa-plug-circle-bolt"></i>
+</div>
+</div>
+<!-- Card 3: Maintenance Plans -->
+<div class="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
+<div>
+<h3 class="text-xl font-extrabold text-brand-navy group-hover:text-amber-600 transition-colors mb-3">Maintenance plans</h3>
+<p class="text-sm text-slate-500 leading-relaxed mb-8">
+              Routine seasonal maintenance to prevent costly summer breakdowns, maintain air filter hygiene, and lower monthly utility bills.
+            </p>
+</div>
+<div class="w-12 h-12 rounded-xl bg-amber-100 text-amber-600 flex items-center justify-center text-lg">
+<i class="fa-solid fa-calendar-days"></i>
+</div>
+</div>
+<!-- Card 4: Emergency Repairs -->
+<div class="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
+<div>
+<h3 class="text-xl font-extrabold text-brand-navy group-hover:text-amber-600 transition-colors mb-3">Emergency repairs</h3>
+<p class="text-sm text-slate-500 leading-relaxed mb-8">
+              24/7 priority emergency service when unexpected power failures, electrical hazards, or sweltering AC outages hit your home.
+            </p>
+</div>
+<div class="w-12 h-12 rounded-xl bg-amber-100 text-amber-600 flex items-center justify-center text-lg">
+<i class="fa-solid fa-triangle-exclamation"></i>
+</div>
+</div>
+<!-- Card 5: General HVAC & Electrical -->
+<div class="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
+<div>
+<h3 class="text-xl font-extrabold text-brand-navy group-hover:text-amber-600 transition-colors mb-3">Commercial services</h3>
+<p class="text-sm text-slate-500 leading-relaxed mb-8">
+              Specialized electrical and HVAC solutions designed for commercial spaces, multi-tenant properties, and retail facilities.
+            </p>
+</div>
+<div class="w-12 h-12 rounded-xl bg-amber-100 text-amber-600 flex items-center justify-center text-lg">
+<i class="fa-solid fa-building"></i>
+</div>
+</div>
+<!-- Card 6: Photo Feature Card (Matching Reference Layout) -->
+<div class="relative rounded-3xl overflow-hidden min-h-[220px] shadow-sm">
+<img alt="Technician mounting AC air conditioning equipment" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuALgLXQAwi7byBhv_JZyu0u-VGffTTkhsASolpB5DMRVe9-RNsp5-OtMDmMtA0rf5iwKE5oLXt0tfU8FSPWsiq2AbS-Y_b-z_5NDI6iQR9R4DpIJg_07zpG-8U6p70C8gLuL1PeQGh98I4GqCT8jy_b3xn5ilqAK8RapmTTlbBDOwl_Lk9F9nJS57gj6fTOc9gAMeVjb-5pRWUbJEcXeWWd_m0FhIUpZJSOjJujqiP9v_JQuvBMa2nTlw"/>
+<div class="absolute inset-0 bg-brand-navy/30"></div>
+<div class="absolute bottom-5 left-5 right-5 text-white">
+<p class="text-xs uppercase font-extrabold tracking-wider text-amber-400">Master Craftsmanship</p>
+<p class="text-base font-bold">Safe, code-certified executions on every service call.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: ServicesGridSection -->
+<!-- BEGIN: WhyUsAndProcessSection -->
+<section class="py-16 sm:py-24 bg-white" data-purpose="why-choose-us" id="why-us">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<!-- Split Card: Left Image + Right Navy Feature Box -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch mb-16">
+<!-- Left: Outdoor Condenser Service Image -->
+<div class="lg:col-span-6 rounded-3xl overflow-hidden min-h-[380px] shadow-lg">
+<img alt="Technician servicing outdoor cooling unit compressor" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD3CbTupqyzepIO6DdA5G-QR6Gfz3cZwFsVPiQM8i1XeieLlUqgPsum7A6LU8zWhHBKerczVfgE9jmHFZ4HbWzusIhhlrjtSKb-MjUIlKzoIC1tT6slfz2oGut3LpWA74PWejH9adIuA0NZRRq10Dz_xNQNKnEbqb_Hg15RgziTnygXh77MIPT0mkmv44_Zv8WJEVnH5lbMYPlqVgVVm8yPFoo5Op1ZkmwvnlBvU4JiwF4FbpRKZAVVIg"/>
+</div>
+<!-- Right: Navy Feature Box (Matching Reference Style) -->
+<div class="lg:col-span-6 bg-brand-navy text-white rounded-3xl p-8 sm:p-12 flex flex-col justify-between shadow-xl">
+<div>
+<h2 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold tracking-tight mb-4 leading-tight">
+              Why we’re the best for Electric &amp; HVAC services
+            </h2>
+<p class="text-slate-300 text-sm sm:text-base leading-relaxed mb-8">
+              Our unwavering commitment to precision craftsmanship, clean work areas, and honest customer satisfaction sets us apart across Central Kentucky.
+            </p>
+<!-- 2-Column Feature Checklist with Checkmarks -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-y-3 gap-x-6 text-sm font-semibold mb-8">
+<div class="flex items-center gap-2.5">
+<i class="fa-solid fa-circle-check text-amber-400"></i>
+<span>Certified mechanics</span>
+</div>
+<div class="flex items-center gap-2.5">
+<i class="fa-solid fa-circle-check text-amber-400"></i>
+<span>Quick turnaround</span>
+</div>
+<div class="flex items-center gap-2.5">
+<i class="fa-solid fa-circle-check text-amber-400"></i>
+<span>Affordable pricing</span>
+</div>
+<div class="flex items-center gap-2.5">
+<i class="fa-solid fa-circle-check text-amber-400"></i>
+<span>Quality OEM parts</span>
+</div>
+<div class="flex items-center gap-2.5">
+<i class="fa-solid fa-circle-check text-amber-400"></i>
+<span>Quick response</span>
+</div>
+<div class="flex items-center gap-2.5">
+<i class="fa-solid fa-circle-check text-amber-400"></i>
+<span>100% Satisfaction guarantee</span>
+</div>
+</div>
+</div>
+<div>
+<a class="inline-flex items-center justify-center px-7 py-3 rounded-xl font-bold text-white bg-amber-500 hover:bg-amber-600 transition-all shadow-md" href="tel:+18594728820">
+              About us
+            </a>
+</div>
+</div>
+</div>
+<!-- 3-Step Process Row (Direct Reference Replication) -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 pt-8 border-t border-slate-100">
+<div class="p-4">
+<div class="text-4xl font-extrabold text-brand-navy mb-3">01</div>
+<h3 class="text-lg font-extrabold text-brand-navy mb-2">Book your appointment</h3>
+<p class="text-sm text-slate-500 leading-relaxed">
+            Contact us via direct phone call or online dispatch to request a time window that fits your schedule.
+          </p>
+</div>
+<div class="p-4">
+<div class="text-4xl font-extrabold text-brand-navy mb-3">02</div>
+<h3 class="text-lg font-extrabold text-brand-navy mb-2">Inspection &amp; service</h3>
+<p class="text-sm text-slate-500 leading-relaxed">
+            Our certified master technician arrives on-site equipped with diagnostic tools to inspect and repair.
+          </p>
+</div>
+<div class="p-4">
+<div class="text-4xl font-extrabold text-brand-navy mb-3">03</div>
+<h3 class="text-lg font-extrabold text-brand-navy mb-2">Follow-up &amp; support</h3>
+<p class="text-sm text-slate-500 leading-relaxed">
+            We provide warranty documentation, upfront invoicing, and ongoing maintenance options for peace of mind.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- END: WhyUsAndProcessSection -->
+<!-- BEGIN: PricingPlansSection -->
+<section class="py-16 sm:py-24 bg-[#f8fafc]" data-purpose="transparent-pricing" id="pricing">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="mb-12">
+<span class="text-amber-500 font-extrabold text-xs uppercase tracking-widest block mb-1">Clear Upfront Rates</span>
+<h2 class="text-3xl sm:text-4xl font-extrabold text-brand-navy tracking-tight">Pricing plans</h2>
+</div>
+<!-- 3 Pricing Cards matching Reference visual hierarchy -->
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch">
+<!-- Plan 1: Basic Repair / Diagnostic (Light Card) -->
+<div class="bg-white rounded-3xl p-8 border border-slate-200/80 shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-baseline mb-4">
+<div>
+<h3 class="text-xl font-bold text-brand-navy">Basic repair</h3>
+<p class="text-xs text-slate-500 mt-1">Perfect for smaller electrical repairs &amp; quick AC checkups.</p>
+</div>
+<div class="text-3xl font-extrabold text-brand-navy">$50</div>
+</div>
+<div class="w-full h-px bg-slate-100 my-6"></div>
+<ul class="space-y-3.5 text-xs sm:text-sm text-slate-600 mb-8">
+<li class="flex items-center gap-2.5">
+<i class="fa-solid fa-check text-xs text-brand-navy"></i>
+<span>Quick response time</span>
+</li>
+<li class="flex items-center gap-2.5">
+<i class="fa-solid fa-check text-xs text-brand-navy"></i>
+<span>Filter &amp; fuse check</span>
+</li>
+<li class="flex items-center gap-2.5">
+<i class="fa-solid fa-check text-xs text-brand-navy"></i>
+<span>Full electrical &amp; volt test</span>
+</li>
+<li class="flex items-center gap-2.5">
+<i class="fa-solid fa-check text-xs text-brand-navy"></i>
+<span>Available 24/7 on call</span>
+</li>
+<li class="flex items-center gap-2.5">
+<i class="fa-solid fa-check text-xs text-brand-navy"></i>
+<span>30 days labor warranty</span>
+</li>
+</ul>
+</div>
+<a class="w-full py-3 text-center rounded-xl font-bold text-white bg-brand-navy hover:bg-brand-darknavy transition-all text-sm shadow-sm" href="tel:+18594728820">
+            Book now
+          </a>
+</div>
+<!-- Plan 2: Standard Installation & Tune-up (Deep Navy Featured Card) -->
+<div class="bg-brand-navy rounded-3xl p-8 text-white shadow-xl flex flex-col justify-between relative transform lg:-translate-y-2 border-2 border-amber-500/20">
+<div>
+<div class="flex justify-between items-baseline mb-4">
+<div>
+<span class="inline-block bg-amber-500 text-brand-darknavy text-[10px] font-extrabold px-2.5 py-0.5 rounded-full uppercase tracking-wider mb-1">Most Popular</span>
+<h3 class="text-xl font-bold text-white">Standard installation</h3>
+<p class="text-xs text-slate-300 mt-1">Standard AC installations &amp; complete electrical tune-ups.</p>
+</div>
+<div class="text-3xl font-extrabold text-white">$150</div>
+</div>
+<div class="w-full h-px bg-white/10 my-6"></div>
+<ul class="space-y-3.5 text-xs sm:text-sm text-slate-200 mb-8">
+<li class="flex items-center gap-2.5">
+<i class="fa-solid fa-check text-xs text-amber-400"></i>
+<span>New AC or subpanel setup</span>
+</li>
+<li class="flex items-center gap-2.5">
+<i class="fa-solid fa-check text-xs text-amber-400"></i>
+<span>Unit positioning &amp; safety audit</span>
+</li>
+<li class="flex items-center gap-2.5">
+<i class="fa-solid fa-check text-xs text-amber-400"></i>
+<span>Basic maintenance &amp; testing</span>
+</li>
+<li class="flex items-center gap-2.5">
+<i class="fa-solid fa-check text-xs text-amber-400"></i>
+<span>Available 24/7 priority support</span>
+</li>
+<li class="flex items-center gap-2.5">
+<i class="fa-solid fa-check text-xs text-amber-400"></i>
+<span>6 months warranty on parts &amp; labor</span>
+</li>
+</ul>
+</div>
+<a class="w-full py-3 text-center rounded-xl font-bold text-brand-darknavy bg-amber-500 hover:bg-amber-400 transition-all text-sm shadow-md" href="tel:+18594728820">
+            Schedule installation
+          </a>
+</div>
+<!-- Plan 3: Premium Repair & Full Overhaul (Warm Amber Featured Card) -->
+<div class="bg-amber-500 rounded-3xl p-8 text-brand-darknavy shadow-md flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-baseline mb-4">
+<div>
+<h3 class="text-xl font-bold text-slate-950">Premium repair and installation</h3>
+<p class="text-xs text-slate-900 font-medium mt-1">Complete system installation and premium equipment repairs.</p>
+</div>
+<div class="text-3xl font-extrabold text-slate-950">$300</div>
+</div>
+<div class="w-full h-px bg-slate-900/10 my-6"></div>
+<ul class="space-y-3.5 text-xs sm:text-sm text-slate-900 font-medium mb-8">
+<li class="flex items-center gap-2.5">
+<i class="fa-solid fa-check text-xs text-slate-950"></i>
+<span>Full system diagnostics &amp; load calculation</span>
+</li>
+<li class="flex items-center gap-2.5">
+<i class="fa-solid fa-check text-xs text-slate-950"></i>
+<span>Filter &amp; capacitor replacements</span>
+</li>
+<li class="flex items-center gap-2.5">
+<i class="fa-solid fa-check text-xs text-slate-950"></i>
+<span>AC gas refill &amp; leak sealing</span>
+</li>
+<li class="flex items-center gap-2.5">
+<i class="fa-solid fa-check text-xs text-slate-950"></i>
+<span>Duct &amp; coil sanitization</span>
+</li>
+<li class="flex items-center gap-2.5">
+<i class="fa-solid fa-check text-xs text-slate-950"></i>
+<span>1 full year warranty guarantee</span>
+</li>
+</ul>
+</div>
+<a class="w-full py-3 text-center rounded-xl font-bold text-white bg-brand-navy hover:bg-brand-darknavy transition-all text-sm shadow-sm" href="tel:+18594728820">
+            Get a free quote
+          </a>
+</div>
+</div>
+</div>
+</section>
+<!-- END: PricingPlansSection -->
+<!-- BEGIN: TechnicianShowcaseBanner -->
+<section class="py-12 bg-white" data-purpose="technician-showcase">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="relative rounded-3xl overflow-hidden shadow-xl max-h-[480px]">
+<img alt="Kentucky certified technicians repairing outdoor rooftop climate unit" class="w-full h-[400px] sm:h-[480px] object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBRgJ1lLmnrbHeRGi4JaV7i18Tz6VXtYwJL6LuT7s1VSZDQq-Yzhw-NupivLcGSnL8PSfJi7ytMPUyEAvbzNHKGba7ZccRrrCA3Eflsbe8qvpZZxQmz95u-omwgFLWVWl6HbHq1mBakLIr3oP8slQ4gj_zHOhockw6fyjkNiM5a46CB2GuXfO-zI-n7jx_iAL1EVEvcY2uYY6XqWQ251ZMLdErtX5YduQgrYRR-gv_Q0e4ZMR6FaJVXpA"/>
+<div class="absolute bottom-6 right-6 bg-white/90 backdrop-blur-md px-4 py-2 rounded-xl text-xs font-bold text-slate-800 shadow-md flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-emerald-500"></span>
+          Master Certified Field Team
+        </div>
+</div>
+</div>
+</section>
+<!-- END: TechnicianShowcaseBanner -->
+<!-- BEGIN: TestimonialsSection -->
+<section class="py-16 sm:py-24 bg-[#f8fafc]" data-purpose="customer-reviews" id="reviews">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center max-w-2xl mx-auto mb-14">
+<h2 class="text-3xl sm:text-4xl font-extrabold text-brand-navy tracking-tight">Customer testimonials</h2>
+<p class="text-sm sm:text-base text-slate-500 mt-2 font-medium">4.9/5 ratings from 300+ customer reviews</p>
+</div>
+<!-- Testimonial Slider Row with Left/Right Controls -->
+<div class="relative max-w-5xl mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
+<!-- Testimonial Card 1 (Photo Highlight) -->
+<div class="md:col-span-4 rounded-3xl overflow-hidden shadow-sm h-72 hidden md:block">
+<img alt="Satisfied Kentucky resident" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBUcwCEc1Q3LCN0_jwk6a9Cz-wbqxuvbRcP-yXnWSXDx_dXztMUpFJgXv4f2-wUk1FMRvMo59YEcC-VI2NsmHXc2H0H8FzMOHyb7eHvY2-zsB4aR-SmRfkIGkg-XWGOVq4v_W7LxRc8uEY4usYnBNgz-Ki6plAnIcooia3YnrNBDyG8EXUR4xPJjr5tP4h5ai9LmgTHnTtW6gDEeekuaipvJHmxDTgpVxHBFW1kcnSsBD5ZlBPQSzvtVQ"/>
+</div>
+<!-- Testimonial Card 2 (Core Review Quotation matching Reference) -->
+<div class="md:col-span-4 bg-white rounded-3xl p-8 border border-slate-100 shadow-lg text-center flex flex-col justify-between min-h-[300px]">
+<div class="flex justify-center gap-1 text-amber-400 text-sm mb-4">
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+</div>
+<p class="text-slate-600 text-sm sm:text-base leading-relaxed italic font-normal">
+              “I called for an emergency repair, and they had a master technician at my door within the hour. The service was fast, fair, and extremely professional.”
+            </p>
+<div class="mt-6">
+<h4 class="font-extrabold text-brand-navy text-sm">Judy Nguyen</h4>
+<p class="text-xs text-slate-400">Lexington, KY Resident</p>
+</div>
+</div>
+<!-- Testimonial Card 3 (Secondary Reviewer Photo) -->
+<div class="md:col-span-4 rounded-3xl overflow-hidden shadow-sm h-72 hidden md:block">
+<img alt="Homeowner in Central Kentucky" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBTGoJFofF38_50kYhHnsjFh9VYa448_VMgLgLLSQK7oit2fUH6Dt3gy1MgJ3JKc6VjCo5GuEgmQEjhzQw-lLkOh7KN1uN-pug5h8r7ZSoHRkcr02F55r7RSlZ8c_gIBiWk4tkpn_D4O9BqSCf26G3lNVsL6MddiwbMWUMLgaaeli1ViH1yC2pdpwbJq4CchBMymUstTHzwYu31wi1lR9NAeLgS7tIU7tdOXN_79aPLwtnY6a7XDEEmXA"/>
+</div>
+</div>
+<!-- Carousel Navigation Arrows (Faithful to Reference Design) -->
+<div class="flex justify-center items-center gap-4 mt-8">
+<button aria-label="Previous Testimonial" class="w-10 h-10 rounded-full bg-amber-500 hover:bg-amber-600 text-white flex items-center justify-center transition-all shadow-sm">
+<i class="fa-solid fa-arrow-left text-xs"></i>
+</button>
+<button aria-label="Next Testimonial" class="w-10 h-10 rounded-full bg-amber-500 hover:bg-amber-600 text-white flex items-center justify-center transition-all shadow-sm">
+<i class="fa-solid fa-arrow-right text-xs"></i>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- END: TestimonialsSection -->
+<!-- BEGIN: FAQSection -->
+<section class="py-16 sm:py-24 bg-white" data-purpose="faq-accordions" id="faq">
+<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-14">
+<h2 class="text-3xl sm:text-4xl font-extrabold text-brand-navy tracking-tight">Frequently asked questions</h2>
+<p class="text-slate-500 text-sm mt-2">Have a question regarding our HVAC and electrical services? Find quick answers here.</p>
+</div>
+<!-- Accordion Items -->
+<div class="space-y-4" data-purpose="faq-list">
+<!-- FAQ 1 (Active/Open by default matching image) -->
+<div class="bg-blue-50/70 border border-blue-100 rounded-2xl overflow-hidden transition-all">
+<button class="w-full py-5 px-6 text-left flex justify-between items-center font-bold text-brand-navy text-sm sm:text-base focus:outline-none" onclick="toggleFaq('faq-1')">
+<span>How quickly can you dispatch a technician or electrician?</span>
+<span class="w-7 h-7 rounded-full bg-brand-navy text-white flex items-center justify-center text-xs shrink-0" id="faq-1-icon">
+<i class="fa-solid fa-minus"></i>
+</span>
+</button>
+<div class="px-6 pb-5 text-xs sm:text-sm text-slate-600 leading-relaxed block" id="faq-1-content">
+            We aim to provide same-day service for most electrical repairs and cooling diagnostics across Lexington and Central Kentucky, depending on availability and dispatch route complexity. Emergency dispatch operates 24/7.
+          </div>
+</div>
+<!-- FAQ 2 -->
+<div class="bg-slate-50/80 border border-slate-100 rounded-2xl overflow-hidden transition-all">
+<button class="w-full py-5 px-6 text-left flex justify-between items-center font-bold text-brand-navy text-sm sm:text-base focus:outline-none" onclick="toggleFaq('faq-2')">
+<span>Do you offer emergency after-hours electrical and AC services?</span>
+<span class="w-7 h-7 rounded-full bg-slate-200 text-slate-700 flex items-center justify-center text-xs shrink-0" id="faq-2-icon">
+<i class="fa-solid fa-plus"></i>
+</span>
+</button>
+<div class="px-6 pb-5 text-xs sm:text-sm text-slate-600 leading-relaxed hidden" id="faq-2-content">
+            Yes! We understand electrical outages, blown breaker panels, and air conditioner failures can pose hazards. Our on-call technicians operate 24 hours a day, 7 days a week. Call <a class="text-amber-600 font-bold underline" href="tel:+18594728820">(859) 472-8820</a> for immediate priority dispatch.
+          </div>
+</div>
+<!-- FAQ 3 -->
+<div class="bg-slate-50/80 border border-slate-100 rounded-2xl overflow-hidden transition-all">
+<button class="w-full py-5 px-6 text-left flex justify-between items-center font-bold text-brand-navy text-sm sm:text-base focus:outline-none" onclick="toggleFaq('faq-3')">
+<span>What are your exact business hours?</span>
+<span class="w-7 h-7 rounded-full bg-slate-200 text-slate-700 flex items-center justify-center text-xs shrink-0" id="faq-3-icon">
+<i class="fa-solid fa-plus"></i>
+</span>
+</button>
+<div class="px-6 pb-5 text-xs sm:text-sm text-slate-600 leading-relaxed hidden" id="faq-3-content">
+            Our standard dispatched customer service hours are:
+            <ul class="list-disc list-inside mt-2 space-y-1">
+<li><strong>Monday – Friday:</strong> 8:00 AM – 5:00 PM</li>
+<li><strong>Saturday:</strong> 8:00 AM – 6:00 PM</li>
+<li><strong>Sunday:</strong> 8:00 AM – 5:00 PM</li>
+</ul>
+            Emergency on-call technicians remain accessible 24/7 beyond regular office hours.
+          </div>
+</div>
+<!-- FAQ 4 -->
+<div class="bg-slate-50/80 border border-slate-100 rounded-2xl overflow-hidden transition-all">
+<button class="w-full py-5 px-6 text-left flex justify-between items-center font-bold text-brand-navy text-sm sm:text-base focus:outline-none" onclick="toggleFaq('faq-4')">
+<span>Where are you located and what territory do you service?</span>
+<span class="w-7 h-7 rounded-full bg-slate-200 text-slate-700 flex items-center justify-center text-xs shrink-0" id="faq-4-icon">
+<i class="fa-solid fa-plus"></i>
+</span>
+</button>
+<div class="px-6 pb-5 text-xs sm:text-sm text-slate-600 leading-relaxed hidden" id="faq-4-content">
+            We proudly serve Lexington, Georgetown, Nicholasville, Richmond, Winchester, and surrounding Central Kentucky communities. You can view our registered service location on Google Maps: 
+            <a class="text-amber-600 font-bold underline inline-flex items-center gap-1 ml-1" href="https://maps.app.goo.gl/Q28Zw3j4veThCFSr7" rel="noopener noreferrer" target="_blank">
+              Open Google Maps <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+</a>.
+          </div>
+</div>
+<!-- FAQ 5 -->
+<div class="bg-slate-50/80 border border-slate-100 rounded-2xl overflow-hidden transition-all">
+<button class="w-full py-5 px-6 text-left flex justify-between items-center font-bold text-brand-navy text-sm sm:text-base focus:outline-none" onclick="toggleFaq('faq-5')">
+<span>What is included in your standard maintenance plan?</span>
+<span class="w-7 h-7 rounded-full bg-slate-200 text-slate-700 flex items-center justify-center text-xs shrink-0" id="faq-5-icon">
+<i class="fa-solid fa-plus"></i>
+</span>
+</button>
+<div class="px-6 pb-5 text-xs sm:text-sm text-slate-600 leading-relaxed hidden" id="faq-5-content">
+            Our comprehensive checkup covers 24 critical safety points: electrical terminal torque testing, capacitor evaluation, refrigerant pressure verification, condensate line flushing, thermostat recalibration, and airflow balancing.
+          </div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: FAQSection -->
+<!-- BEGIN: BottomCtaBanner -->
+<section class="py-12 bg-white" data-purpose="call-to-action-banner">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<!-- Warm Amber High-Impact Banner matching exact Reference banner -->
+<div class="bg-amber-500 rounded-3xl p-8 sm:p-12 shadow-xl flex flex-col md:flex-row items-center justify-between gap-6 relative overflow-hidden">
+<!-- Decorative dashes like reference -->
+<div class="absolute top-4 left-1/2 -translate-x-1/2 flex gap-1 opacity-25">
+<span class="w-8 h-1 bg-brand-navy rounded-full"></span>
+<span class="w-4 h-1 bg-brand-navy rounded-full"></span>
+</div>
+<div>
+<h2 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-brand-darknavy tracking-tight text-center md:text-left">
+            Speak with our team – We’re just a call away!
+          </h2>
+<p class="text-xs sm:text-sm font-semibold text-slate-900 mt-2 text-center md:text-left">
+            Lexington &amp; Central Kentucky: Fast dispatch, transparent upfront quotes, and zero hassle.
+          </p>
+</div>
+<div class="flex items-center gap-3 shrink-0">
+<a class="px-8 py-4 rounded-xl font-extrabold text-white bg-brand-navy hover:bg-brand-darknavy transition-all shadow-md text-sm sm:text-base flex items-center gap-2" href="tel:+18594728820">
+<i class="fa-solid fa-phone"></i>
+<span>Contact us</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- END: BottomCtaBanner -->
+<!-- BEGIN: SiteFooter -->
+<footer class="bg-brand-navy text-slate-300 pt-16 pb-12 border-t border-white/10" data-purpose="site-footer">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<!-- Top Footer Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12 border-b border-white/10">
+<!-- Brand Info Column -->
+<div class="lg:col-span-2">
+<a class="flex items-center gap-3 group mb-4" href="#">
+<div class="w-10 h-10 rounded-xl bg-amber-500 flex items-center justify-center text-brand-darknavy shadow-md">
+<i class="fa-solid fa-bolt-lightning text-lg"></i>
+</div>
+<span class="text-xl font-extrabold tracking-tight text-white">
+              Kentucky <span class="text-amber-400">Electric</span> &amp; HVAC
+            </span>
+</a>
+<p class="text-xs sm:text-sm text-slate-400 leading-relaxed max-w-sm mb-6">
+            We handle electrical repairs, panel upgrades, air conditioning, and heating maintenance with certified expertise &amp; efficiency to ensure your home stays protected and comfortable.
+          </p>
+<!-- Operating Hours Display -->
+<div class="bg-white/5 border border-white/10 rounded-xl p-4 text-xs text-slate-300 max-w-sm mb-6">
+<div class="font-bold text-amber-400 uppercase tracking-wider mb-2 flex items-center gap-1.5">
+<i class="fa-regular fa-clock"></i> Operating Hours
+            </div>
+<div class="flex justify-between py-0.5">
+<span>Weekdays (Mon - Fri):</span>
+<span class="font-semibold text-white">8:00 AM – 5:00 PM</span>
+</div>
+<div class="flex justify-between py-0.5">
+<span>Saturday:</span>
+<span class="font-semibold text-white">8:00 AM – 6:00 PM</span>
+</div>
+<div class="flex justify-between py-0.5">
+<span>Sunday:</span>
+<span class="font-semibold text-white">8:00 AM – 5:00 PM</span>
+</div>
+<div class="mt-2 text-[11px] text-amber-300 font-semibold border-t border-white/10 pt-1.5 flex items-center gap-1">
+<i class="fa-solid fa-circle text-[6px] text-amber-400"></i> 24/7 Emergency Dispatch On-Call
+            </div>
+</div>
+<!-- Social Icons -->
+<div class="flex items-center gap-3 text-white">
+<a aria-label="X Twitter" class="w-8 h-8 rounded-full bg-white/10 hover:bg-amber-500 hover:text-brand-darknavy transition-all flex items-center justify-center text-xs" href="#">
+<i class="fa-brands fa-x-twitter"></i>
+</a>
+<a aria-label="Facebook" class="w-8 h-8 rounded-full bg-white/10 hover:bg-amber-500 hover:text-brand-darknavy transition-all flex items-center justify-center text-xs" href="#">
+<i class="fa-brands fa-facebook-f"></i>
+</a>
+<a aria-label="Instagram" class="w-8 h-8 rounded-full bg-white/10 hover:bg-amber-500 hover:text-brand-darknavy transition-all flex items-center justify-center text-xs" href="#">
+<i class="fa-brands fa-instagram"></i>
+</a>
+</div>
+</div>
+<!-- Navigation Pages Column -->
+<div>
+<h4 class="text-white font-bold text-sm uppercase tracking-wider mb-4">Pages</h4>
+<ul class="space-y-2 text-xs sm:text-sm text-slate-400">
+<li><a class="hover:text-white transition-colors" href="#">Home</a></li>
+<li><a class="hover:text-white transition-colors" href="#about">About Us</a></li>
+<li><a class="hover:text-white transition-colors" href="#services">Services</a></li>
+<li><a class="hover:text-white transition-colors" href="#pricing">Pricing Plans</a></li>
+<li><a class="hover:text-white transition-colors" href="#reviews">Customer Reviews</a></li>
+<li><a class="hover:text-white transition-colors" href="#faq">FAQ</a></li>
+</ul>
+</div>
+<!-- Services Quicklinks Column -->
+<div>
+<h4 class="text-white font-bold text-sm uppercase tracking-wider mb-4">Services</h4>
+<ul class="space-y-2 text-xs sm:text-sm text-slate-400">
+<li><a class="hover:text-white transition-colors" href="#services">AC Repair &amp; Diagnostic</a></li>
+<li><a class="hover:text-white transition-colors" href="#services">Electrical Rewiring</a></li>
+<li><a class="hover:text-white transition-colors" href="#services">Panel Upgrades</a></li>
+<li><a class="hover:text-white transition-colors" href="#services">Heat Pump Installation</a></li>
+<li><a class="hover:text-white transition-colors" href="#services">Commercial HVAC</a></li>
+<li><a class="hover:text-amber-400 transition-colors" href="tel:+18594728820">24/7 Emergency Help</a></li>
+</ul>
+</div>
+<!-- Contact Column -->
+<div>
+<h4 class="text-white font-bold text-sm uppercase tracking-wider mb-4">Contact</h4>
+<ul class="space-y-3 text-xs sm:text-sm text-slate-400">
+<li>
+<a class="hover:text-amber-400 transition-colors flex items-center gap-2 font-semibold text-white" href="tel:+18594728820">
+<i class="fa-solid fa-phone text-amber-400"></i> +1 (859) 472-8820
+              </a>
+</li>
+<li class="flex items-center gap-2">
+<i class="fa-solid fa-envelope text-amber-400"></i> info@kentuckyelectric-hvac.com
+            </li>
+<li>
+<a class="hover:text-amber-400 transition-colors flex items-start gap-2" href="https://maps.app.goo.gl/Q28Zw3j4veThCFSr7" rel="noopener noreferrer" target="_blank">
+<i class="fa-solid fa-location-dot text-amber-400 mt-0.5"></i>
+<span>Lexington &amp; Central Kentucky</span>
+</a>
+</li>
+</ul>
+<div class="mt-5">
+<a class="inline-flex items-center gap-2 px-3.5 py-2 rounded-lg bg-amber-500 text-brand-darknavy font-bold text-xs hover:bg-amber-400 transition-all shadow-sm" href="https://maps.app.goo.gl/Q28Zw3j4veThCFSr7" rel="noopener noreferrer" target="_blank">
+<i class="fa-solid fa-map-location-dot"></i> View on Google Maps
+            </a>
+</div>
+</div>
+</div>
+<!-- Bottom Credits / Copyright -->
+<div class="pt-8 flex flex-col sm:flex-row justify-between items-center text-xs text-slate-500 gap-4">
+<div>
+          © <span id="year">2026</span> Kentucky Electric &amp; HVAC. All rights reserved.
+        </div>
+<div class="flex items-center gap-6">
+<a class="hover:text-slate-400" href="#">Privacy Policy</a>
+<a class="hover:text-slate-400" href="#">Terms of Service</a>
+<a class="hover:text-slate-400" href="#">Licenses</a>
+</div>
+</div>
+</div>
+</footer>
+<!-- END: SiteFooter -->
+<!-- BEGIN: Scripts for Interactivity -->
+<script data-purpose="faq-toggle-logic">
+    function toggleFaq(id) {
+      const content = document.getElementById(id + '-content');
+      const icon = document.getElementById(id + '-icon');
+      
+      const isOpen = !content.classList.contains('hidden');
+      
+      // Close all items
+      for (let i = 1; i <= 5; i++) {
+        const itemContent = document.getElementById('faq-' + i + '-content');
+        const itemIcon = document.getElementById('faq-' + i + '-icon');
+        if (itemContent && itemIcon) {
+          itemContent.classList.add('hidden');
+          itemIcon.innerHTML = '<i class="fa-solid fa-plus"></i>';
+          itemIcon.className = 'w-7 h-7 rounded-full bg-slate-200 text-slate-700 flex items-center justify-center text-xs shrink-0';
+          itemContent.parentElement.className = 'bg-slate-50/80 border border-slate-100 rounded-2xl overflow-hidden transition-all';
+        }
+      }
+      
+      // If was not open before, open this one
+      if (!isOpen) {
+        content.classList.remove('hidden');
+        icon.innerHTML = '<i class="fa-solid fa-minus"></i>';
+        icon.className = 'w-7 h-7 rounded-full bg-brand-navy text-white flex items-center justify-center text-xs shrink-0';
+        content.parentElement.className = 'bg-blue-50/70 border border-blue-100 rounded-2xl overflow-hidden transition-all';
+      }
+    }
+  </script>
+<script data-purpose="dynamic-year">
+    const yearSpan = document.getElementById('year');
+    if (yearSpan) {
+      yearSpan.textContent = new Date().getFullYear();
+    }
+  </script>
+<!-- END: Scripts for Interactivity -->
+</body></html>
